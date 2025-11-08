@@ -21,6 +21,8 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+
+#Estructura de la documentación
 schema_view = get_schema_view(
     openapi.Info(
         title="ImpulsoNica API",
@@ -37,14 +39,20 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('impulsonica.urls')),
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'), #para obtener el tokens
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'), #para actualizar el tokens ya vencido
 
-    # Swagger UI
+    # Swagger UI para ver la documentación
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('swagger.json', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger.yaml', schema_view.without_ui(cache_timeout=0), name='schema-yaml'),
-]
 
+]
+ #para mostrar una vista de bienvenida en la raiz de impulsonica
+from impulsonica.views import home
+
+urlpatterns += [
+    path('', home),
+]
 
 

@@ -5,10 +5,11 @@ from .views import (
     EmpleosViewSet, EmpresasViewSet, MunicipiosViewSet, PostulacionesViewSet, VacantesViewSet
 )
 
+#crea las direcciones de las url de cada tabla
 router = DefaultRouter()
 router.register(r'administradores', AdministradoresViewSet)
 router.register(r'candidatos', CandidatosViewSet)
-router.register(r'curriculums', CurriculumViewSet)
+router.register(r'curriculum', CurriculumViewSet)
 router.register(r'departamentos', DepartamentosViewSet)
 router.register(r'empleos', EmpleosViewSet)
 router.register(r'empresas', EmpresasViewSet)

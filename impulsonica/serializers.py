@@ -3,7 +3,7 @@ from .models import (
     Administradores, Candidatos, Curriculum, Departamentos, Empleos,
     Empresas, Municipios, Postulaciones, Vacantes
 )
-
+# la serealizacion de la aca tabla de la base de datos
 class AdministradoresSerializer(serializers.ModelSerializer):
     class Meta:
         model = Administradores

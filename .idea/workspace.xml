@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f26e50a4-1eac-4a29-a9c7-b7e91c6ab8f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ImpulsoNica_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/impulsonica/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/impulsonica/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/impulsonica/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonic_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonic_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonic_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonic_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonica/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonica/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonica/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonica/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonica/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonica/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impulsonica/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/impulsonica/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +22,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hernandezlenrique0-netizen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hernandezlenrique0-netizen/IMPULSONICA_V2.0.git",
+    "accountId": "bd85797a-368d-426d-8244-95417ddb7584"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -37,15 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -8,6 +8,7 @@ from .serializers import (
     EmpleosSerializer, EmpresasSerializer, MunicipiosSerializer, PostulacionesSerializer, VacantesSerializer
 )
 
+#se crean las vistas de las tablas de la base de datos
 class AdministradoresViewSet(viewsets.ModelViewSet):
     queryset = Administradores.objects.all()
     serializer_class = AdministradoresSerializer
@@ -47,7 +48,8 @@ class VacantesViewSet(viewsets.ModelViewSet):
 
 
 
-from django.http import JsonResponse
+#para crear una vista de bienvenida en la raiz de impulsonica
+from django.http import HttpResponse
 
 def home(request):
-    return JsonResponse({"mensaje": "Bienvenido a la API de ImpulsoNica"})
+    return HttpResponse("Bienvenido a la API de ImpulsoNica 🚀")

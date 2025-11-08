@@ -102,6 +102,7 @@ DATABASES = {
     }
 }
 """
+#para la conexión con la base de datos
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
